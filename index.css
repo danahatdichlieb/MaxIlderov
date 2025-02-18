@@ -376,14 +376,20 @@ nav a:hover {
 }
 
 @media (max-width: 700px){
+
+    body{
+        overflow-x: hidden;
+        margin-left: -10px;
+    }
+
     .text-line-left {
-        width: 20000%;
+        width: 19000%;
         left: -9000%
 
     }
 
     .text-line-right {
-        width: 20000%;
+        width: 19000%;
         left: -9000%
 
     }
@@ -396,12 +402,16 @@ nav a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        scale: 0.8;
+        scale: 0.7;
         filter: blur(-2px);
     }
 
     .image-container {
         filter: blur(-2px);
+    }
+
+    .p {
+        width: 19000%;
     }
 }
 
