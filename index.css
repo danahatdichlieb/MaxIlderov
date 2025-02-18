@@ -214,6 +214,10 @@ nav a {
 
 }
 
+.margin {
+    text-decoration: none;
+}
+
 nav a:hover {
     text-decoration: underline;
     color: #ffffff;
@@ -586,6 +590,7 @@ nav a:hover {
 .todo-container:hover {
     transform: scale(1.1);
     filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.5));
+
 }
 
 .todo-text {
@@ -594,6 +599,8 @@ nav a:hover {
     font-weight: 300;
     font-size: 17px;
     text-align: center;
+    text-decoration: underline none;
+
 }
 
 @media (max-width: 768px) {
