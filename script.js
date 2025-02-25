@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    createStars(150); 
+    createStars(250); 
 });
 
